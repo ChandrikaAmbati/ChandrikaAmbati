@@ -1,0 +1,8 @@
+n1=int(input('enter n1'))
+n2=int(input('enter n2'))
+print(max(n1,n2), "big")
+
+output:
+n1 20
+n2 30
+30 big
