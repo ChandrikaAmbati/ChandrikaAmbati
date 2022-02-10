@@ -1,0 +1,9 @@
+int(input('enter n value'))
+if n>0:
+    print('positive no.')
+else:
+    print('negative no.')
+   
+    output:
+    enter n value 8
+    positive no.
