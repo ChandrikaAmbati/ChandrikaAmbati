@@ -1,0 +1,25 @@
+sno=int(input('enter student no.:'))
+sname=input('enter student name:')
+sgroup=input('enter grp name:')
+s1=int(input('enter maths marks'))
+s2=int(input('enter stat marks'))
+s3=int(input('enter cs marks'))
+s4=int(input('enter E.E marks'))
+s5=int(input('enter O.B marks'))
+s6=int(input('enter A.S marks'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print('student is passed')
+else:
+    print('student is failed')
+   
+    output:-
+    enter student no.: 05
+    enter student name:chandrika
+    enter grp name: mstcs
+    enter maths marks: 70
+    enter stat marks: 80
+    enter cs marks: 40
+    enter E.E marks: 50
+    enter O.B mraks: 75
+    enter A.S marks: 26
+    student is failed
