@@ -1,0 +1,40 @@
+-perf=180
+rice=150
+cream=100
+oil=50
+chips=80
+cname=input('enter customer name: ')
+cnum=input('enter customer phone number: ')
+perfq=int(input('enter no of perfume bottles: '))
+riceq=int(input('enter no of rice packets: '))
+crq=int(input('enter no of cream packets: '))
+oilq=int(input('enter no of  oil packets: '))
+chq=int(input('enter no of chips packets: '))
+bill=(perf*perfq)+(rice*riceq)+(cream*crq)+(oil*oilq)+(chips*chq)
+print('bill:',bill)
+if bill>=5000:
+      dis=bill*10/100
+if bill>=3000:
+     dis=bill*8/100
+elif bill>=2000:
+     dis=bill*5/100
+elif bill>=1000:
+     dis=bill*3/100
+if bill>=3000:
+     tax=bill*10/100
+else:
+     tax=bill*18/100
+mainbill=bill-dis+tax
+print('total bill amount: ', mainbill)
+
+
+output:
+enter customer name: A T Alekhya
+enter customer phone number: 9346433404
+enter no of perfume bottles: 2
+enter no of rice packets: 2
+enter no of cream packets: 2
+enter no of oil packets: 2
+enter no of chips packets: 2
+bill: 1120
+total bill amount:1288.0
