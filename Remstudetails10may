@@ -1,0 +1,15 @@
+d={1:['dhanu','female','mccs','pass'],2:['praveen','male','cse','pass'],3:['siva','male','ece','pass'],4:['mahaboob','male','mstcs','pass']}
+d.pop()
+print(d)
+
+OUTPUT:
+{1: ['dhanu', 'female', 'mccs', 'pass'], 3: ['siva', 'male', 'ece', 'pass'], 4: ['mahaboob', 'male', 'mstcs', 'pass']}
+
+                                              [ or ]
+                                              
+d={1:['dhanu','female','mccs','pass'],2:['praveen','male','cse','pass'],3:['siva','male','ece','pass'],4:['mahaboob','male','mstcs','pass']}
+d.clear()
+print(d)
+
+OUTPUT:
+{}
