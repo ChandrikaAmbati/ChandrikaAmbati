@@ -1,0 +1,15 @@
+class solution:
+    def prime(self, i):
+        x=i//2
+        for j in range(2,x+1):
+            if i%j==0:
+                return False
+        return True
+def countprimes(self, n:int)-> int:
+    c=0
+    if n<2:
+        return 0
+    for i in range(2, n):
+        if self. prime(i):
+            c=c+1
+    return c
