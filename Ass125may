@@ -1,0 +1,15 @@
+class Solution(object):
+    def minCostClimbingStairs(self, cost):
+        n = len(cost)
+        if n < 3:
+            return min(cost)
+        
+        prev = cost[0]
+        cur = cost[1]
+        
+        for i in range(2, n):
+            tmp = min(prev, cur) + cost[i]
+            prev = cur
+            cur = tmp
+        
+        return min(prev, cur)
