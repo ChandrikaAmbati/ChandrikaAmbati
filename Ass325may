@@ -1,0 +1,13 @@
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        someString = ''
+        newResult = []
+        for i in digits:
+            someString += str(i)
+        
+        someString = str(int(someString) + 1)
+        
+        for i in someString:
+            newResult.append(i)
+            
+        return newResult
